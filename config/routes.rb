@@ -1,4 +1,13 @@
 Mimir::Application.routes.draw do
+  namespace :mimir do
+
+  end
+
+  resources :articles do
+    resources :pages do
+
+    end
+  end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
