@@ -16,6 +16,8 @@ gem 'haml-rails', "~> 0.4"
 
 gem 'paperclip'
 
+gem 'rails-backbone'
+
 gem 'thin'
 
 # Gems used only for assets and not required
